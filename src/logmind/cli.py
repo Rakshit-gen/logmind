@@ -1,5 +1,9 @@
 import argparse
+import logging
 import sys
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+logger = logging.getLogger("logmind.cli")
 
 
 def main() -> None:
@@ -19,21 +23,27 @@ def main() -> None:
     if args.command == "ingest-postmortems":
         from logmind.ingest_postmortems import ingest_postmortems
 
+        logger.info("ingesting postmortems from %s", args.input)
         count = ingest_postmortems(args.input)
+        logger.info("ingested %d chunks from %s", count, args.input)
         print(f"ingested {count} chunks from {args.input}")
 
     elif args.command == "analyze":
         from logmind.graph import run
 
+        logger.info("analyzing %s for incident: %s", args.logs, args.incident)
         try:
             result = run(args.incident, args.logs, top_n=args.top_n)
         except RuntimeError as e:
+            logger.error("analysis failed: %s", e)
             print(str(e), file=sys.stderr)
             sys.exit(1)
 
         if result.get("clarifying_question"):
+            logger.info("no anomalies found, asking clarifying question")
             print(result["clarifying_question"])
         else:
+            logger.info("report synthesized")
             print(result["report"])
 
 
