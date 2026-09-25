@@ -12,6 +12,7 @@ def main() -> None:
     analyze_p = sub.add_parser("analyze", help="analyze a log file for an active incident")
     analyze_p.add_argument("--logs", required=True)
     analyze_p.add_argument("--incident", required=True, help="plain language description")
+    analyze_p.add_argument("--top-n", type=int, default=5, help="how many error signatures to rank")
 
     args = parser.parse_args()
 
@@ -25,7 +26,7 @@ def main() -> None:
         from logmind.graph import run
 
         try:
-            result = run(args.incident, args.logs)
+            result = run(args.incident, args.logs, top_n=args.top_n)
         except RuntimeError as e:
             print(str(e), file=sys.stderr)
             sys.exit(1)

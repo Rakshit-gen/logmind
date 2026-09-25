@@ -31,6 +31,7 @@ Incident summary:"""
 class IncidentState(TypedDict):
     incident_description: str
     log_path: str
+    top_n: int
     anomalies: list[dict]
     similar_incidents: list[str]
     report: str
@@ -38,7 +39,7 @@ class IncidentState(TypedDict):
 
 
 def analyze_logs_node(state: IncidentState) -> dict:
-    anomalies = run_analysis(state["log_path"])
+    anomalies = run_analysis(state["log_path"], top_n=state.get("top_n", 5))
     return {"anomalies": anomalies}
 
 
@@ -113,12 +114,13 @@ def build_graph():
     return builder.compile()
 
 
-def run(incident_description: str, log_path: str) -> IncidentState:
+def run(incident_description: str, log_path: str, top_n: int = 5) -> IncidentState:
     graph = build_graph()
     result = graph.invoke(
         {
             "incident_description": incident_description,
             "log_path": log_path,
+            "top_n": top_n,
             "anomalies": [],
             "similar_incidents": [],
             "report": "",
