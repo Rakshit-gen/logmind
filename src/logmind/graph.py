@@ -3,6 +3,7 @@ from typing import TypedDict
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from langgraph.graph import END, StateGraph
+from tenacity import retry, stop_after_attempt, wait_exponential
 
 from logmind.config import GROQ_MODEL, require_groq_key
 from logmind.log_analysis import run_analysis
@@ -70,6 +71,17 @@ def ask_clarification_node(state: IncidentState) -> dict:
     }
 
 
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+def _invoke_with_retry(chain, inputs: dict):
+    """Retry the actual Groq call for transient failures (rate limits, timeouts).
+
+    require_groq_key() runs before this is ever called, so a missing or
+    invalid key still fails immediately instead of burning retries on
+    something that will never succeed.
+    """
+    return chain.invoke(inputs)
+
+
 def synthesize_report_node(state: IncidentState) -> dict:
     require_groq_key()
     llm = ChatGroq(model=GROQ_MODEL, temperature=0)
@@ -81,12 +93,13 @@ def synthesize_report_node(state: IncidentState) -> dict:
     )
     similar_text = "\n\n".join(state["similar_incidents"]) or "none found"
 
-    result = chain.invoke(
+    result = _invoke_with_retry(
+        chain,
         {
             "incident_description": state["incident_description"],
             "anomalies": anomalies_text,
             "similar_incidents": similar_text,
-        }
+        },
     )
     return {"report": result.content}
 
