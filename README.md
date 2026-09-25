@@ -84,6 +84,58 @@ Python 3.13+, PySpark's cloudpickle doesn't handle it. Use 3.11.
 run `pip install -e .`, spark workers import your code by name and don't
 share the driver's `sys.path`.
 
+## Production considerations
+
+What's handled:
+
+- **Docker**: a `Dockerfile` builds an image with Python 3.11 and a JDK
+  (via `default-jdk-headless`) so pyspark has a JVM to run on. Runs the
+  `analyze` and `ingest-postmortems` CLI commands. `GROQ_API_KEY` is
+  passed in at container run time, not baked into the image.
+- **CI**: `.github/workflows/ci.yml` runs on every push and pull request,
+  sets up Python 3.11 and JDK 17, installs the package, and runs the test
+  suite.
+- **Structured logging**: `cli.py` logs status (what's being analyzed,
+  errors, whether a report or a clarifying question came back) through
+  Python's `logging` module instead of scattered `print` calls. The
+  actual report or clarifying question still goes to stdout, since
+  that's the tool's real output and needs to stay pipeable.
+- **Retries**: the Groq call in `synthesize_report_node` retries up to 3
+  times with exponential backoff for transient failures (rate limits,
+  timeouts). A missing or invalid API key still fails immediately, it's
+  checked before the retry logic ever runs.
+- **Input validation**: pointing `--logs` at a file that doesn't exist
+  gives a clear error instead of a raw Spark stack trace.
+
+What a real production deployment would still need:
+
+- **A real Spark cluster.** This runs `local[2]`, capped on purpose for
+  a laptop. Real incident log volumes across many services would need
+  actual distributed Spark (YARN, Kubernetes, or a managed service like
+  EMR/Dataproc), not a single JVM process.
+- **Auth.** There is none. Anyone who can run the CLI or hit whatever
+  wraps it can trigger analysis and read the postmortem library. A real
+  deployment needs this behind some access control, especially since
+  postmortems can contain sensitive operational detail.
+- **Automated postmortem ingestion.** `ingest-postmortems` is a manual
+  step you run by hand after writing a postmortem. In practice you'd
+  want this triggered automatically, e.g. a hook when a postmortem doc
+  is merged, so the library never silently drifts out of date.
+- **Secrets management.** `GROQ_API_KEY` comes from a `.env` file or an
+  environment variable. That's fine for local use, but production wants
+  a real secrets manager rather than an env var sitting on a host.
+- **Observability beyond logs.** The logging added here is a starting
+  point, not tracing or metrics. There's no visibility into Groq latency,
+  retry counts, or how often the agent asks a clarifying question versus
+  synthesizing a report, which matters if this is trusted during actual
+  incidents.
+- **Persistent, shared Chroma storage.** `CHROMA_DIR` is a local
+  directory. Multiple instances of this tool running in production would
+  each need to read the same postmortem index, which means a shared
+  store, not a directory on one machine's disk.
+- **Rate limiting and cost control on the Groq calls.** Nothing here
+  stops repeated or abusive calls from running up API usage.
+
 ## Layout
 
 ```
