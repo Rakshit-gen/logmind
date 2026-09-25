@@ -1,7 +1,7 @@
 import argparse
 import json
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 SERVICES = ["checkout-api", "payments-api", "inventory-svc", "auth-svc", "email-worker"]
 NORMAL_MESSAGES = [
@@ -62,7 +62,7 @@ def main() -> None:
     parser.add_argument("--spike-service", default="checkout-api", choices=SERVICES)
     args = parser.parse_args()
 
-    start = datetime.utcnow() - timedelta(minutes=args.minutes)
+    start = datetime.now(timezone.utc) - timedelta(minutes=args.minutes)
     rows = generate_incident_log(start, args.minutes, args.spike_service)
 
     with open(args.out, "w") as f:
