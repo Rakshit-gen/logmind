@@ -34,6 +34,10 @@ def main() -> None:
         logger.info("analyzing %s for incident: %s", args.logs, args.incident)
         try:
             result = run(args.incident, args.logs, top_n=args.top_n)
+        except FileNotFoundError as e:
+            logger.error("log file not found: %s", args.logs)
+            print(str(e), file=sys.stderr)
+            sys.exit(1)
         except RuntimeError as e:
             logger.error("analysis failed: %s", e)
             print(str(e), file=sys.stderr)

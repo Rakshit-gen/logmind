@@ -1,3 +1,5 @@
+import os
+
 from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql.functions import col, count
 
@@ -37,6 +39,9 @@ def run_analysis(path: str, top_n: int = 5) -> list[dict]:
     For callers (like the langgraph nodes) that just want an answer and
     don't want to think about starting or stopping spark themselves.
     """
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"log file not found: {path}")
+
     spark = get_spark("logmind-analysis")
     try:
         return analyze_log_file(spark, path, top_n=top_n)
