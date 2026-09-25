@@ -50,6 +50,15 @@ python -m logmind.cli analyze --logs sample_logs/incident.jsonl \
   --incident "checkout API returning 500s since 14:30, started right after the release"
 ```
 
+## Troubleshooting
+
+**`PicklingError` on `createDataFrame` or `spark.read.json`**: you're on
+Python 3.13+, PySpark's cloudpickle doesn't handle it. Use 3.11.
+
+**`ModuleNotFoundError: No module named 'logmind'` from a spark task**:
+run `pip install -e .`, spark workers import your code by name and don't
+share the driver's `sys.path`.
+
 ## Layout
 
 ```
