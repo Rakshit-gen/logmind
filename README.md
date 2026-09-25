@@ -50,6 +50,31 @@ python -m logmind.cli analyze --logs sample_logs/incident.jsonl \
   --incident "checkout API returning 500s since 14:30, started right after the release"
 ```
 
+## What a run looks like
+
+Given the sample incident log (a synthetic checkout-api error spike) and
+the sample postmortems, `analyze` finds the matching past incident and
+writes something like:
+
+```
+Likely cause: checkout-api is failing because calls to payments-api are
+erroring out (connection issues), matching a past incident from March
+where a payments-api deploy shrank its connection pool.
+
+Affected service: checkout-api, secondary: payments-api
+
+Similar past incident: 2026-03-14 checkout-api 500s from payments-api
+timeout, root cause was a connection pool misconfiguration, fixed by
+reverting the pool size and adding a saturation alert.
+
+Next steps:
+1. Check whether payments-api had a recent deploy, especially to
+   connection pool or timeout config.
+2. Check payments-api connection pool saturation.
+3. If this matches the March incident, the fix was reverting the pool
+   size change, not a checkout-api change.
+```
+
 ## Troubleshooting
 
 **`PicklingError` on `createDataFrame` or `spark.read.json`**: you're on
