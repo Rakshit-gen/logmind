@@ -1,0 +1,533 @@
+{"timestamp": "2026-09-25T15:55:47.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:55:51.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:55:54.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:55:54.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:55:58.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:56:11.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T15:56:15.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T15:56:15.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:56:20.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T15:56:22.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:56:26.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T15:56:29.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:56:31.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:56:35.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:56:36.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:56:43.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:56:44.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:57:01.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:57:02.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:03.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:06.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:57:10.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:57:11.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:57:14.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:57:16.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:17.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:18.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:57:19.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:57:23.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T15:57:23.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:57:25.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:57:26.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T15:57:30.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:34.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:57:35.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:36.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:57:44.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:57:44.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:44.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:57:46.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:57:54.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:56.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:57:57.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:57:58.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:58:04.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T15:58:07.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:58:10.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:58:12.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:58:13.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:58:23.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:58:33.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:58:41.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:58:42.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T15:58:43.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:58:45.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T15:58:47.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:58:49.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:58:51.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:58:52.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:58:58.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:59:02.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:03.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:59:04.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T15:59:05.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:06.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:09.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:59:10.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T15:59:12.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:12.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:59:13.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:14.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:59:15.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:19.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T15:59:20.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:59:21.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:59:32.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T15:59:33.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:42.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T15:59:45.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:59:46.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:59:47.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:59:50.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T15:59:52.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T15:59:58.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:00:08.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:00:15.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:00:17.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:00:21.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:00:23.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:00:25.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:00:25.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:00:27.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:00:27.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:00:29.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:00:29.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:00:29.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:00:30.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:00:32.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:00:36.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:00:38.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:00:38.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:00:40.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:00:41.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:00:41.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:00:57.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:00:58.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:01:00.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:01:01.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:01:10.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:01:15.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:01:18.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:01:21.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:01:23.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:01:24.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:01:35.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:36.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:38.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:38.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:01:39.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:40.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:45.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:45.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:01:49.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:01:52.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:01:53.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:56.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:01:56.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:02:00.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:01.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:05.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:07.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:02:08.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:02:09.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:11.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:12.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:14.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:02:15.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:02:16.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:24.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:24.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:02:25.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:27.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:02:28.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:32.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:33.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:34.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:34.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:02:35.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:36.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:36.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:02:37.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:40.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:40.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:02:42.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:45.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:46.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:02:48.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:02:49.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:02:53.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:55.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:02:56.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:57.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:02:59.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:01.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:02.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:03.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:03.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:03:05.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:05.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:07.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:08.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:03:09.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:11.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:11.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:03:12.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:13.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:15.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:03:17.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:03:18.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:03:19.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:19.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:03:20.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:21.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:21.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:22.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:25.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:26.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:26.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:03:26.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:03:30.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:38.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:39.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:39.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:03:40.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:41.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:43.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:43.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:44.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:46.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:03:47.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:48.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:49.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:50.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:52.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:53.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:54.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:03:54.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:03:58.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:00.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:01.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:02.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:05.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:08.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:11.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:11.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:04:14.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:16.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:17.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:17.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:04:19.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:20.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:20.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:04:21.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:21.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:04:24.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:26.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:26.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:04:27.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:04:28.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:30.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:31.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:33.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:34.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:04:35.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:36.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:37.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:04:38.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:04:40.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:45.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:45.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:04:45.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:04:47.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:47.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:04:49.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:49.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:04:51.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:52.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:56.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:04:57.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:04:59.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:00.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:00.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:05:01.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:02.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:04.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:05:05.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:06.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:05:09.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:10.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:05:10.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:05:11.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:13.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:16.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:16.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:05:16.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:05:19.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:21.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:22.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:25.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:05:27.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:27.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:05:30.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:05:31.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:31.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:05:32.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:35.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:40.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:40.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:05:47.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:05:48.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:50.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:53.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:05:54.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:56.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:57.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:05:59.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:00.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:02.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:03.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:04.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:06:04.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:06:07.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:09.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:06:14.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:15.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:22.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:23.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:06:24.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:25.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:06:26.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:28.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:28.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:06:29.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:31.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:32.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:34.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:34.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:06:35.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:36.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:37.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:41.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:42.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:42.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:06:43.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:44.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:06:45.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:06:47.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:48.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:48.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:06:51.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:52.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:54.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:06:55.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:55.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:06:56.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:06:56.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:06:57.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:58.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:06:58.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:06:59.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:00.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:01.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:07:03.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:04.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:07.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:07:08.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:07:09.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:11.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:12.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:07:14.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:15.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:07:16.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:18.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:07:20.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:21.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:07:21.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:07:22.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:25.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:25.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:07:27.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:07:29.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:30.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:31.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:32.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:33.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:34.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:34.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:07:35.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:36.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:36.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:07:38.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:42.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:43.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:43.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:07:43.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:07:45.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:46.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:07:48.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:51.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:07:52.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:07:53.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:53.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:07:54.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:07:55.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:57.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:07:57.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:07:57.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:08:00.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:01.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:03.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:04.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:08:07.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:08.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:08:09.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:10.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:12.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:14.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:15.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:17.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:17.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:08:18.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:19.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:08:22.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:08:23.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:25.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:25.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:08:26.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:08:32.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:08:37.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:08:39.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:08:42.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:08:59.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:09:01.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:09:07.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:09:08.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:09:09.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:09:10.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:09:20.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:09:21.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:09:23.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:09:26.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:09:41.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:09:41.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:09:44.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:09:46.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:09:56.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:10:01.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:10:03.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:10:09.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:10:13.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:10:14.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:10:14.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:10:15.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:10:19.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:10:30.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:10:33.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:10:49.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:10:51.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:10:52.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:11:00.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:11:11.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:11:11.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:11:17.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:11:22.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:11:25.496159", "service": "auth-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:11:25.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:11:27.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:11:30.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:11:42.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:11:47.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:11:48.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:11:51.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:11:51.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:11:55.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:11:59.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:12:00.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:12:02.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:12:11.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:12:12.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:12:13.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:12:14.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:12:17.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:12:18.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:12:21.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:12:22.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:12:22.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:12:28.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:12:28.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:12:31.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:12:46.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:12:47.496159", "service": "payments-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:12:48.496159", "service": "inventory-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:12:48.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:12:49.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:12:51.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:12:52.496159", "service": "checkout-api", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:12:59.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:13:01.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:13:01.496159", "service": "auth-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:13:01.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:13:02.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:13:06.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:13:07.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:13:07.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:13:12.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:13:13.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:13:16.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:13:17.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:13:17.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:13:25.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:13:26.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:13:35.496159", "service": "inventory-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:13:39.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:13:41.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:13:41.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:13:42.496159", "service": "checkout-api", "level": "ERROR", "message": "upstream payments-api returned 500"}
+{"timestamp": "2026-09-25T16:13:51.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:13:51.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:13:52.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:13:56.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:04.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:04.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:06.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:14:08.496159", "service": "email-worker", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:14:09.496159", "service": "payments-api", "level": "ERROR", "message": "connection pool exhausted"}
+{"timestamp": "2026-09-25T16:14:10.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:12.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:14.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:14:15.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:14:18.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:23.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:24.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:14:26.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:14:30.496159", "service": "payments-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:30.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:14:31.496159", "service": "auth-svc", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:14:31.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:14:34.496159", "service": "email-worker", "level": "ERROR", "message": "unexpected error"}
+{"timestamp": "2026-09-25T16:14:41.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:41.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:42.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:44.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:47.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:49.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:14:51.496159", "service": "email-worker", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:14:53.496159", "service": "checkout-api", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:54.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:14:57.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:15:00.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:15:08.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:15:11.496159", "service": "email-worker", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:15:16.496159", "service": "inventory-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:15:18.496159", "service": "inventory-svc", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:15:18.496159", "service": "auth-svc", "level": "INFO", "message": "health check ok"}
+{"timestamp": "2026-09-25T16:15:23.496159", "service": "payments-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:15:24.496159", "service": "payments-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:15:25.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:15:26.496159", "service": "inventory-svc", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:15:27.496159", "service": "email-worker", "level": "INFO", "message": "request completed"}
+{"timestamp": "2026-09-25T16:15:30.496159", "service": "checkout-api", "level": "INFO", "message": "cache hit"}
+{"timestamp": "2026-09-25T16:15:31.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:15:33.496159", "service": "checkout-api", "level": "INFO", "message": "background job finished"}
+{"timestamp": "2026-09-25T16:15:33.496159", "service": "auth-svc", "level": "INFO", "message": "background job finished"}
