@@ -3,6 +3,7 @@ import os
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+from logmind.config import CHUNK_OVERLAP, CHUNK_SIZE
 from logmind.store import get_vectorstore
 
 
@@ -14,7 +15,7 @@ def ingest_postmortems(input_dir: str) -> int:
     incident), so there's nothing here that benefits from Spark the way
     the raw log analysis does.
     """
-    splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
     store = get_vectorstore()
 
     texts, metadatas, ids = [], [], []
